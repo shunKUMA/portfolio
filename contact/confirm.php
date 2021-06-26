@@ -74,7 +74,7 @@ if($name!=''&&$mail!==''&&$subject!==''&&$comment!==''){
             </div>
             <input type="button" value="内容を修正する" onclick="history.back(-1)">
             <?php if($name!=''&&$mail!==''&&$subject!==''&&$comment!==''): ?>
-                <button type="submit" name="submit" onclick="action('/thanks/')"><a href="thanks">送信する</a></button>
+                <button type="submit" name="submit" onclick="action('/thanks.php/')"><a href="thanks">送信する</a></button>
             <?php endif;?>
         </form>
     </div>
